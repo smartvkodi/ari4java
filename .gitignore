@@ -1,0 +1,27 @@
+*.class
+
+ari4java/*
+build/
+bin/
+dist/*
+nbproject/*
+libs/*
+
+manifest.mf
+build.xml
+
+/.settings
+/.classpath
+/.project
+.gradle/
+/.nb-gradle
+/.directory
+.idea/
+
+# macbook
+.DS_Store
+
+# ignore generated code artifacts - they will be rebuilt by gradle as needed
+src/main/generated/
+src/main/resources/build.properties
+codegen/tmp/
